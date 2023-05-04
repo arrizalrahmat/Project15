@@ -36,6 +36,14 @@ function App(): JSX.Element {
     setText(str);
   };
 
+  const feature1 = () => {
+    console.log('blablablablablalblablabla');
+  };
+
+  const feature2 = () => {
+    console.log('blablablablablalblablabla');
+  };
+
   const handleToggle = (index: number) => setSelectedCard(index);
 
   const renderItem = ({item, index}) => {

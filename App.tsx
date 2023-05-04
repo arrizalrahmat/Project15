@@ -40,6 +40,10 @@ function App(): JSX.Element {
     console.log('blablablablablalblablabla');
   };
 
+  const feature2 = () => {
+    console.log('blablablablablalblablabla');
+  };
+
   const handleToggle = (index: number) => setSelectedCard(index);
 
   const renderItem = ({item, index}) => {

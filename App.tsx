@@ -291,7 +291,7 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   getBackground: condition => ({
-    backgroundColor: condition === 'danger' ? 'red' : 'green',
+    backgroundColor: condition === 'danger' ? 'blue' : 'yellow',
   }),
 });
 

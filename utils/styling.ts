@@ -3,11 +3,11 @@ import {Platform} from 'react-native';
 export const chooseOS = () => {
   if (Platform.OS === 'ios') {
     return {
-      backgroundColor: 'green',
+      backgroundColor: 'orange',
     };
   } else {
     return {
-      backgroundColor: 'red',
+      backgroundColor: 'magenta',
     };
   }
 };
